@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+ background: url(./images/Web\ design.png);
+
+}
+
+.navbar-brand{
+    margin-left: 3rem;
+}
+
+
+
+#collapsibleNavId .nav-link{
+    color: whitesmoke;
+    font-weight: 400;
+}
+#collapsibleNavId .nav-link:hover{
+    background: linear-gradient(to right,rgb(61, 123, 186), rgb(143, 80, 224));
+    /* padding: 7px 15px; */
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#heading{
+    margin-top: 5rem;
+}
+
+
+
+#heading h3 {
+    background: linear-gradient(to right, rgb(143, 80, 224), #f32170);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.name{
+    font-size: 14px;
+    margin-top: 2rem;
+}
+
+#second-phase{
+    margin-top: 2rem;
+}
+
+#second-phase h4{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#second-phase p{
+    color: rgba(255, 255, 255, 0.689);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1rem;
+    
+}
+
+.first{
+    background: rgba(245, 245, 245, 0.05);
+    border-radius: 10px;
+}
+
+.icons{
+    padding: 0.6rem;
+    background:#7063BF;
+    border-radius: 50%;
+}
+.icons1{
+    padding: 0.6rem;
+    background:#5AB989;
+    border-radius: 50%;
+}
+
+.title{
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.bottom p{
+    color: rgb(255, 255, 255) !important;
+}
+
+.arrow:hover{
+    cursor: pointer;
+   color: white !important;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .navbar-brand{
+        margin-left: 0rem;
+    }
+
+    #collapsibleNavId .nav-link:hover{
+        color: white;
+        font-weight: 700;
+    }
+
+    #heading p{
+        text-align: center;
+    }
+ 
+    #heading h3{
+        color: rgb(143, 80, 224);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        line-height: 40px;
+      }
+
+      .vim{
+        margin-top: 2rem;
+      }
+
+      #collapsibleNavId .nav-link{
+        font-weight: 700;
+        background-color: #121D37;
+        width: 100%;
+    }
+
+    #second-phase p{
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* margin-top: 0rem; */
+        
+    }
+
+    .first{
+        background: rgba(245, 245, 245, 0.05);
+        border-radius: 10px;
+        margin-top: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
